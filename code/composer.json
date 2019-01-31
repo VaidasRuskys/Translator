@@ -1,0 +1,11 @@
+{
+    "name": "vaidas-ruskys/translator",
+    "description": "Symfony translator using data base",
+    "authors": [
+        {
+            "name": "Vaidas Ruskys",
+            "email": "vaidas.ruskys@gmail.com"
+        }
+    ],
+    "require": {}
+}
