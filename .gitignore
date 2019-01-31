@@ -1,2 +1,5 @@
 #idea
 /.idea/*
+
+/code/vendor/*
+/code/composer.lock
