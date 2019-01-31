@@ -7,7 +7,6 @@
             "email": "vaidas.ruskys@gmail.com"
         }
     ],
-    "minimum-stability": "dev",
     "require": {
         "php": ">=7.2.5"
     },
