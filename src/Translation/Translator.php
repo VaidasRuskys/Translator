@@ -1,6 +1,6 @@
 <?php
 
-namespace VaidasRuskys\Translator\Translation;
+namespace VaidasRuskys\DatabaseTranslator\Translation;
 
 use Symfony\Component\Translation\TranslatorInterface;
 
@@ -25,5 +25,4 @@ class Translator implements TranslatorInterface
     {
         // TODO: Implement getLocale() method.
     }
-
 }

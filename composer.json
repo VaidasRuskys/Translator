@@ -9,12 +9,17 @@
     ],
     "require": {
         "php": ">=7.2.5",
-        "symfony/symfony": "^3.0",
+        "symfony/symfony": "^3.0"
+    },
+    "require-dev": {
         "phpunit/phpunit": "*"
     },
     "autoload": {
-        "psr-0": {
-            "VaidasRuskys/Translator": "/"
+        "psr-4": {
+            "VaidasRuskys\\DatabaseTranslator\\": "src/"
         }
+    },
+    "autoload-dev": {
+        "psr-4": { "VaidasRuskys\\DatabaseTranslator\\Tests\\": "tests/" }
     }
 }
