@@ -14,4 +14,9 @@ class DatabaseTranslatorBundle extends Bundle
 
         $container->addCompilerPass($translatorPass = new CreateTranslatorPass());
     }
+
+    public function getContainerExtension()
+    {
+        return new DatabaseTranslatorExtension();
+    }
 }

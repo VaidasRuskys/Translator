@@ -1,6 +1,5 @@
 <?php
 
-
 namespace VaidasRuskys\DatabaseTranslator\Translation\Repository;
 
 class OrmRepository implements RepositoryInterface

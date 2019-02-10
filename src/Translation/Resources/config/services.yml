@@ -1,0 +1,2 @@
+services:
+  VaidasRuskys\DatabaseTranslator\Translation\Repository\OrmRepositor: ~
