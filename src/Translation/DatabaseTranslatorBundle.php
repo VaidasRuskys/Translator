@@ -5,6 +5,7 @@ namespace VaidasRuskys\DatabaseTranslator\Translation;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 use VaidasRuskys\DatabaseTranslator\Translation\DependencyInjection\Compiler\CreateTranslatorPass;
+use VaidasRuskys\DatabaseTranslator\Translation\DependencyInjection\DatabaseTranslatorExtension;
 
 class DatabaseTranslatorBundle extends Bundle
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace VaidasRuskys\DatabaseTranslator\Translation;
+namespace VaidasRuskys\DatabaseTranslator\Translation\DependencyInjection;
 
 use Symfony\Component\Config\FileLocator;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
