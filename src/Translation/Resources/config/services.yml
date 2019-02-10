@@ -1,2 +1,3 @@
 services:
-  VaidasRuskys\DatabaseTranslator\Translation\Repository\OrmRepositor: ~
+  vaidas_ruskys.translator.orm.repository:
+    Class: VaidasRuskys\DatabaseTranslator\Translation\Repository\OrmRepositor
