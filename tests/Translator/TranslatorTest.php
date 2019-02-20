@@ -39,10 +39,12 @@ class TranslatorTest extends TestCase
     }
 
     /**
+     * @covers VaidasRuskys\DatabaseTranslator\Translation\Translator
      * @dataProvider getTestTransData
      * @param $transParams
      * @param $repoParams
      * @param $expected
+     * @throws \Psr\SimpleCache\InvalidArgumentException
      */
     public function testTrans($transParams, $repoParams, $expected)
     {
