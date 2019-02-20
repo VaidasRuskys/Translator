@@ -1,3 +1,12 @@
 services:
+  vaidas_ruskys.via_factory.translator:
+    class: VaidasRuskys\DatabaseTranslator\Translation\Translator
+    factory: vaidas_ruskys.factory.translator:createTranslator
+
   vaidas_ruskys.translator.orm.repository:
     class: VaidasRuskys\DatabaseTranslator\Translation\Repository\OrmRepository
+
+  vaidas_ruskys.factory.translator:
+    class: VaidasRuskys\DatabaseTranslator\Translation\Factory\TranslatorFactory
+    arguments:
+      - '@vaidas_ruskys.translator.orm.repository'

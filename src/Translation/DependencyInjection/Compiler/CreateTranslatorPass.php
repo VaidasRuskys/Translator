@@ -13,6 +13,6 @@ class CreateTranslatorPass implements CompilerPassInterface
     public function process(ContainerBuilder $container)
     {
         $translator = new Definition(Translator::class, [new Reference('vaidas_ruskys.translator.orm.repository')]);
-        $container->setDefinition('vaidas_ruskys.translator', $translator);
+        $container->setDefinition('vaidas_ruskys.via_compiler_pass.translator', $translator);
     }
 }
